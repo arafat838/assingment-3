@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/****************** global css************
+*****************      ******************8 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+header{
+    width: 100%;
+    
+}
+
+.main{
+    display: flex;
+    
+    
+}
+.logo{
+    flex-basis: 20%;
+     
+}
+
+.menu{
+    margin: 15px;
+    flex-basis: 60%;
+    color: #0e72cc;   
+    
+}
+.buttons button{
+    background-color:#0e72cc;
+    margin: 20px 1px;
+    padding: 14px;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: auto;
+    font-size:15px;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    transition: 0.8s;
+
+}
+.buttons button:hover{
+    background-color: #8f97e4;
+    transition: 0.8s;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 20px
+
+}
+
+/* banner section code */
+
+.banner-section{
+    width: 100%;
+    height: 80vh;
+    margin: 80px 0px;
+    background: url(../img/intro.png) center right no-repeat;
+    background-size:auto;
+
+}
+.banner-inner{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+}
+.banner-section .banner-inner .left,.banner-section .banner-inner .right {
+    flex-basis: 50%;
+}
+.banner-section .banner-inner .left h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color:#0e72cc;
+}
+.banner-section .banner-inner .left p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    color:#0e72cc;
+    margin: 20px 0px 50px;
+    width: 87%;
+}
+.banner-section .banner-inner .left .btn a{
+    background-color: #0e72cc;
+    color: aliceblue;
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.8s;
+
+}
+.banner-section .banner-inner .left .btn a:hover{
+    background-color: #86b7e3;
+    transition: 0.8s;
+
+
+}
+.banner-section .banner-inner .right img{
+    width: 100%;
+}
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-section .feature-box{
+    display: flex;
+   
+}
+.feature-section .feature-box .icon{
+    margin-right: 15px;
+    
+}
+
+.feature-section .feature-box .box-1 {
+    background-color: #f9799a;
+    display: flex;
+    font-size: 25px;
+    margin:0px 10px;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 8px;
+
+}
+.feature-section .feature-box .box-2{
+    background-color:#17a2b8;
+    display: flex;
+    font-size: 25px;
+    margin:0px 10px;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 8px;
+
+}
+
+.feature-section .feature-box .box-3{
+    background-color: #007bff;
+    display: flex;
+    font-size: 25px;
+    margin:0px 10px ;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
